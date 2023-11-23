@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-shadow: 2px 2px black;
+}
+.par{
+    text-align: justify;
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: underline;
+
+}
+ .dva{
+    background-color: green;
+}
+.list{
+    background-color: blue;
+    color: red;
+}
+ .edin {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Позволява на елементите да бъдат на един ред */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+
+  .edin li {
+    border: 1px solid #000; /* Добавя рамка */
+    width: 100px; /* Дължина на 100px */
+    height: 50px; /* Височина на 50px */
+    margin: 5px; /* Отстъп между елементите */
+    text-align: center; /* Центрира текста вътре в рамката */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    background-color: #333333;
+  }
